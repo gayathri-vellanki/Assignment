@@ -9,7 +9,6 @@ num = eval(input())
 conversion_type = input("Enter 'C' for Celsius to Fahrenheit conversion, 'F' for Fahrenheit to Celsius conversion: ")
 
 result = None
-
 if conversion_type == 'C':
     result = convert_to_fahrenheit(num)
     print(str(num) + " degree Celsius is equal to " + str(result) + " degree Fahrenheit")
