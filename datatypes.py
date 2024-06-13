@@ -45,7 +45,14 @@ print(quote[0::2])
 print(quote[-1::-2])
 print(quote[-2::-2])
 
-#question 3
+#question 4
 str1=input("st1=")
 str2=input("str2=")
 print("output=",str1+str2)
+print("Output=",str1[::-1]+str2[::-1])
+
+#-----LIST----
+numbers=[10,20,30,40]
+numbers[0:5]=["ten","twenty","thirty","fourty"]
+print(numbers)
+
