@@ -96,3 +96,22 @@ print(details[2][3][1])
 details[0][1]="vignesh"
 details[1][2]="varanasi"
 print(details)
+
+#---set----
+set1={"rajesh","suresh","vignesh","manish"}
+print(set1)
+for i in set1:
+    print(i)
+#print(set1[1]) --error---
+
+numbers={10,20,20,40,59,40,67,89,67}
+print(len(numbers))
+print(numbers)
+#str to set
+institute="palle technologies"
+print(set(institute))
+#list to set
+My_students=["amitab","ms dhoni","abdul kalam","narendra modi","ms dhoni"]
+print(set(My_students))
+
+
