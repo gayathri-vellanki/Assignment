@@ -32,3 +32,15 @@ print(stmt[-28:-22])
 print(stmt[-21:-19])
 print(stmt[-18:-13])
 print(stmt[-12:])
+
+#question 3
+quote="PRACTICE MAKES MAN PREFECT"
+print(quote[0:8])
+print(quote[9:14])
+print(quote[15:18])
+print(quote[19:])
+print(quote[-1:-8:-1])
+print(quote[-13:-18:-1])
+print(quote[0::2])
+print(quote[-1::-2])
+print(quote[-2::-2])
