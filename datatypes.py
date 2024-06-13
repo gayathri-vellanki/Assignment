@@ -44,3 +44,8 @@ print(quote[-13:-18:-1])
 print(quote[0::2])
 print(quote[-1::-2])
 print(quote[-2::-2])
+
+#question 3
+str1=input("st1=")
+str2=input("str2=")
+print("output=",str1+str2)
