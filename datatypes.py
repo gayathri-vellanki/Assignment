@@ -114,4 +114,12 @@ print(set(institute))
 My_students=["amitab","ms dhoni","abdul kalam","narendra modi","ms dhoni"]
 print(set(My_students))
 
+#----range-----
+num5=range(5,101,5)#5 multiples
+print(list(num5))
+print(list(range(40,3,-4)))#4 multiples
+print(list(range(99,10,-2)))#odd in list
+print(tuple(range(50,1,-2)))#even in tuple
+
+
 
