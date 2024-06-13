@@ -1,3 +1,5 @@
+#------string-------
+
 #question 1
 Institute="PALLE TECHNOLOGIES"
 #printing 'T' using positive and negative indexing
@@ -46,8 +48,10 @@ print(quote[-1::-2])
 print(quote[-2::-2])
 
 #question 4
-str1=input("st1=")
-str2=input("str2=")
+#str1=input("str1=")
+#str2=input("str2=")
+str1="PALLE"
+str2="TECHNOLOGIES"
 print("output=",str1+str2)
 print("Output=",str1[::-1]+str2[::-1])
 
@@ -56,3 +60,39 @@ numbers=[10,20,30,40]
 numbers[0:5]=["ten","twenty","thirty","fourty"]
 print(numbers)
 
+#q-2
+details=[1,"name","place","course"]
+print(details[0:2])
+print(details[-2:])
+
+#q-3
+subjects=["english","mathematics","science","computers","hindi"]
+print(subjects[0:3])
+print(subjects[1:4])
+print(subjects[-1:-4:-1])
+
+#------tuple--------
+numbers=(10,20,30,40,50,60,70,80,90)
+print(numbers[0::2])
+print(numbers[1::2])
+print(numbers[-1::-2])
+print(numbers[-2::-2])
+print(numbers[1:5])
+numbers=list(numbers)
+numbers[1]="twenty"
+print(tuple(numbers))
+
+#--list--
+details=[['ramesh','suresh'],
+         ['banglore','hyderabad','delhi'],
+         [10,20,30,['ten',"twenty","thirty"]]]
+print(details[0][1])
+print(details[1][1])
+print(details[2][2])
+print(details[2][3][2])
+print(details[1][2])
+print(details[0][0])
+print(details[2][3][1])
+details[0][1]="vignesh"
+details[1][2]="varanasi"
+print(details)
