@@ -15,7 +15,7 @@ print("Sum of alternate elements:",sum2)
 i=0
 sum3=0
 while i<len(x):
-    if i%2 != 0:
+    if i%2 == 0:
         sum3=sum3+x[i]
     i=i+1
 print("Sum of odd index position elements:",sum3)
@@ -43,6 +43,8 @@ print("\n")
 print("sum of negative numbers:",nsum)
 #odd
 i=0
+print("odd Numbers:")
 while i<len(l):
-    
+    if l[i]%2 != 0 and l[i]>0:
+        print(l[i])
     
