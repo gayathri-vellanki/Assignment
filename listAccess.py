@@ -14,7 +14,19 @@ print("OddNumbers sum:",oddsum)
 print("Even Numbers sum:",evensum)
 print("Alternate index even numbers")
 i=0
+evenAltSum=0
 while i<len(l):
     if l[i]%2==0 and l[i]>0:
         print(l[i])
+        evenAltSum=evenAltSum+l[i]
     i=i+2
+print("Even numbers alternative index sum:",evenAltSum)
+print("Alternate index odd numbers")
+i=0
+oddAltSum=0
+while i<len(l):
+    if l[i]%2!=0 and l[i]>0:
+        print(l[i])
+        oddAltSum=oddAltSum+l[i]
+    i=i+2
+print("Odd numbers alternative index sum:",oddAltSum)
