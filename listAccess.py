@@ -30,3 +30,13 @@ while i<len(l):
         oddAltSum=oddAltSum+l[i]
     i=i+2
 print("Odd numbers alternative index sum:",oddAltSum)
+#multiply value with index position
+x=[10,11,14,-16,-12,-13,15,17,18,-19,20]
+y=[]
+i=0
+z=0
+while i<len(x):
+    z=x[i]*i
+    y=y+[z]
+    i=i+1
+print(y)
