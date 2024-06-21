@@ -40,3 +40,17 @@ while i<len(x):
     y=y+[z]
     i=i+1
 print(y)
+print("Sum of odd index even numbers:")
+l=[10,11,14,-16,-12,-13,15,17,18,-19,20]
+i=0
+oddindexEvensum=0
+oddindexOddsum=0
+while i<len(l):
+    if i%2 != 0:
+        if l[i]%2 == 0 and l[i]>0:
+            oddindexEvensum=oddindexEvensum+l[i]
+        elif l[i]%2 != 0 and l[i]>0:
+            oddindexOddsum=oddindexOddsum+l[i]
+    i=i+1
+print(oddindexEvensum)
+print("Sum of odd index odd numbers:",oddindexOddsum)
