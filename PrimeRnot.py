@@ -63,3 +63,18 @@ for i in range(2,100):
         c=c+1
         if c==10:
             break
+print()
+#prime numbers in list
+l1=[2,5,6,7,8,9,11,13]
+reff=False
+for i in l1:
+    j=2
+    while j<i:
+        if i%j==0:
+            reff=True
+            break
+        j=j+1
+    if reff:
+        pass
+    else:
+        print(i)
