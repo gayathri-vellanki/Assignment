@@ -66,8 +66,8 @@ for i in range(2,100):
 print()
 #prime numbers in list
 l1=[2,5,6,7,8,9,11,13]
-reff=False
 for i in l1:
+    reff=False
     j=2
     while j<i:
         if i%j==0:
