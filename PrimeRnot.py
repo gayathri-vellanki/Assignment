@@ -25,3 +25,41 @@ else:
     print("number is not prime")
     
 #All prime numbers below 100
+c=0
+sum=0
+for i in range(2,101):
+    result=False
+    j=2
+    while(j<i):
+        if i%j == 0:
+            result=True
+            break
+        j=j+1
+    if result:
+        pass
+    else:
+        print(i,end=" ")
+        sum=sum+i
+        c=c+1
+print()
+print("Sum of prime numbers below 100:",sum)
+print("Number of prime numbers below 100:",c)
+
+##first 10 prime numbers
+print("First 10 prime numbers:")
+c=0
+for i in range(2,100):
+    refe=False
+    j=2
+    while(j<i):
+        if i%j==0:
+            refe=True
+            break
+        j=j+1
+    if refe:
+        pass
+    else:
+        print(i,end=" ")
+        c=c+1
+        if c==10:
+            break
