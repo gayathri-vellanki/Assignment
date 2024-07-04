@@ -20,3 +20,14 @@ if elem in l:
 else:
     print("Element is not present")
 print(l)
+pos=int(input("enter position to delete element:"))
+if pos<len(l):
+    l.pop(pos)
+else:
+    print("index out of range")
+print(l)
+element=int(input("enter element:"))
+if element in l:
+    print(l.index(element))
+else:
+    print("-1")
