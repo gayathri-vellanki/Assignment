@@ -14,3 +14,9 @@ ind=int(input("Enter position to insert:"))
 ele=int(input("Enter element to insert:"))
 l.insert(ind,ele)
 print(l)
+elem=int(input("Enter element to delete from list:"))
+if elem in l:
+    l.remove(elem)
+else:
+    print("Element is not present")
+print(l)
