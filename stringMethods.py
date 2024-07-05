@@ -13,8 +13,52 @@ print(str.endswith('is'))
 print(str.endswith('g',10,22))
 print(str.find('is'))#return first occurence of value,otherwise -1(same as index())
 print(str.find('god'))# -1
-
-
-
-
-
+str="Python is easy programming language"
+s=""
+l=[]
+for i in str:
+    if i==" ":
+        print(s)
+        l=l+[s]
+        s=""
+    else:
+        s=s+i
+l=l+[s]
+print(s)
+print(l)
+print(l[::-1])
+revs=""
+revW=""
+for i in l[::-1]:
+    revs=revs+i+" "
+    revW=revW+i[::-1]+" "
+    print(i)
+print(revs)
+print(revW)
+SW=""
+Rl=[]
+for i in revW:
+    if i==" ":
+        Rl=Rl+[SW]
+        SW=""
+    else:
+        SW=SW+i
+print(Rl)
+word="python"
+ws=''
+WordList=[]
+for i in range(len(word)):
+    for j in range(0,i+1):
+        ws=ws+word[j]
+    WordList=WordList+[ws]
+    ws=''
+print(WordList)
+RevWord=word[::-1]
+ws=''
+WordList=[]
+for i in range(len(RevWord)):
+    for j in range(0,i+1):
+        ws=ws+RevWord[j]
+    WordList=WordList+[ws]
+    ws=''
+print(WordList)
