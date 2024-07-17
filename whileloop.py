@@ -53,3 +53,17 @@ for i in l:
         min=i
 print("Maximmun Element:",max)
 print("Minimum Element:",min)
+
+##searching Element in list
+l=[1,2,3,4,5,6]
+elem=3
+pos=-1
+for i in range(len(l)):
+    if l[i]==elem:
+        pos=i
+        break
+if pos==-1:
+        print("Element not found")
+else:
+    print("Element found at position :",pos)
+        
