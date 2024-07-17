@@ -41,3 +41,15 @@ while j>=0:
     j=j-1
 print("\n")
 print("sum of negative numbers:",nsum)    
+
+##biggest element in list
+l=[1,21,43,45,3,0]
+max=l[0]
+min=l[0]
+for i in l:
+    if i>max:
+        max=i
+    if i<min:
+        min=i
+print("Maximmun Element:",max)
+print("Minimum Element:",min)
