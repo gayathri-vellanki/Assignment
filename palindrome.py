@@ -16,10 +16,10 @@ temp=num1
 sum=0
 while(num1>0):
     dig=num1%10
-    sum=sum+dig**3
+    sum=sum+dig**3   #sum=sum+(dig*dig*dig)
     num1=num1//10
 if sum==temp:
     print("Number is Armstrong")
 else:
     print("Not Armstrong")
-    
+
