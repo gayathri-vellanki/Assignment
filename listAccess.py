@@ -54,3 +54,16 @@ while i<len(l):
     i=i+1
 print(oddindexEvensum)
 print("Sum of odd index odd numbers:",oddindexOddsum)
+
+
+##find biggest even number present in a list
+lt=[20,24,34,12,31,98]
+nl=[]
+for i in range(len(lt)):
+    if lt[i]%2==0:
+        nl=nl+[lt[i]]
+maxi=nl[0]
+for i in nl:
+    if i>maxi:
+        maxi=i
+print("Biggest Even Number in list:",maxi)

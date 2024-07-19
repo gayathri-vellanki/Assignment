@@ -9,3 +9,5 @@ for i in range(len(s)):
         st=st+s[i]
 print(st)
 
+
+
