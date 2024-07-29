@@ -71,3 +71,13 @@ for i in s:
     if i in vowels:
         vcount=vcount+1
 print("count of vowels in string:",vcount)
+
+#Replace vowels with "z" in string
+st=""
+for i in s:
+    if i in vowels:
+        st=st+'z'
+    else:
+        st=st+i
+print("string after replacing with 'z' in vowels:",st)
+
