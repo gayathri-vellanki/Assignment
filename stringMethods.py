@@ -62,3 +62,12 @@ for i in range(len(RevWord)):
     WordList=WordList+[ws]
     ws=''
 print(WordList)
+
+#Count of vowels
+s="gayathrii"
+vowels="aeiou"
+vcount=0
+for i in s:
+    if i in vowels:
+        vcount=vcount+1
+print("count of vowels in string:",vcount)
