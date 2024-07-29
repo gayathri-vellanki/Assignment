@@ -23,3 +23,17 @@ if sum==temp:
 else:
     print("Not Armstrong")
 
+##string Palindrome
+s=input("Enter String:")
+rev=""
+re=""
+for i in range(len(s)-1,-1,-1):
+    rev=rev+s[i]
+for i in range(len(s)):
+    re=s[i]+re
+if s==rev:
+    print("String is palindrome")
+else:
+    print("Not a palindrome")
+
+    
