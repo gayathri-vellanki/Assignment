@@ -81,3 +81,15 @@ for i in s:
         st=st+i
 print("string after replacing with 'z' in vowels:",st)
 
+#counting words in string
+s="python is good programming language"
+count=0
+for i in s:
+    if i == " ":
+        count=count+1
+count=count+1
+print("Number of words in string:",count)
+revst=""
+for i in s:
+    revst=i+revst
+print("Reverse of string:",revst)
