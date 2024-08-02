@@ -93,3 +93,18 @@ revst=""
 for i in s:
     revst=i+revst
 print("Reverse of string:",revst)
+
+str="Python is easy programming language"
+nl=[]
+rs=""
+count=0
+lt=list(str.split(" "))
+for i in range(len(lt)):
+    if i%2 != 0:
+        for j in l[i]:
+            rs=j+rs
+        nl=nl+[rs]
+    else:
+        nl=nl+[l[i]]
+print(nl)
+print(" ".join(nl))
