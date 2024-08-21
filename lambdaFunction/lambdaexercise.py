@@ -64,52 +64,38 @@ last3=list(map(lambda i:x[i],range(len(x)-3,len(x))))
 print("last 3 elements of list:",last3)
 
 y = [10,11,12,14,15,16,17,18,19,20]
+
 #replace even number as "palle"
 replace=list(map(lambda i:"palle" if i%2 == 0 else i,y))
 print("Replacing with 'palle' in even numbers:",replace)
+
 #replace odd number as "palle"
 replace=list(map(lambda i:"palle" if i%2 != 0 else i,y))
 print("Replacing with 'palle' in odd numbers:",replace)
+
 #replacing even index as "palle"
 replace=list(map(lambda i:"palle" if i%2 == 0 else y[i],range(0,len(y))))
 print("Replacing even index as 'palle':",replace)
+
 #replacing odd index as "palle"
 replace=list(map(lambda i:"palle" if i%2 != 0 else y[i],range(0,len(y))))
 print("Replacing odd index as 'palle':",replace)
+
 # Using map and lambda to replace even-indexed even numbers with "python"
 replace = list(map(lambda i: "python" if (i % 2 == 0 and y[i] % 2 == 0 and y[i] > 0) else y[i], range(len(y))))
 print("Replace Even index even number with 'python':",replace)
+
 # Using map and lambda to replace even-indexed odd numbers with "python"
 replace = list(map(lambda i: "python" if (i % 2 == 0 and y[i] % 2 != 0 and y[i] > 0) else y[i], range(len(y))))
 print("Replace Even index odd number with 'python':",replace)
+
 # Using map and lambda to replace odd-indexed odd numbers with "python"
 replace = list(map(lambda i: "python" if (i % 2 != 0 and y[i] % 2 != 0 and y[i] > 0) else y[i], range(len(y))))
 print("Replace ODD index even number with 'python':",replace)
+
 # Using map and lambda to replace odd-indexed odd numbers with "python"
 replace = list(map(lambda i: "python" if (i % 2 != 0 and y[i] % 2 == 0 and y[i] > 0) else y[i], range(len(y))))
 print("Replace ODD index even number with 'python':",replace)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Sample list of numbers
 numbers = [10, 15, 22, 35, 40, 50, 60, 70, 80, 90]
